@@ -24,4 +24,6 @@ Adding more threads or changing the sleep delays would still results in non-dete
 
 # Exo2: Command Buffer
 
-• Define a CommandsBufferclass as shown in the slides • Stores commands in an array: String[ ] commands • Provides pushand popmethods to add and remove commands to/from the buffer, respectively
+## • Define a CommandsBufferclass as shown in the slides   
+&nbsp;• Stores commands in an array: String[ ] commands   
+&nbsp;• Provides pushand popmethods to add and remove commands to/from the buffer, respectively
