@@ -1,7 +1,13 @@
 package philosopher_problem_schedule;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Philosopher extends Thread {
   private final Fork leftFork;
   private final Fork rightFork;
+  private int eatingCount;
+
   private Scheduler scheduler;
 
   public Philosopher(String name, Fork leftFork, Fork rightFork, Scheduler scheduler){
