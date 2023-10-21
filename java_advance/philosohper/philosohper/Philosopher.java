@@ -1,7 +1,7 @@
 package philosohper;
 import java.util.Random;
 
-public class Philosopher extends Thread{
+public class Philosopher implements Runnable{
     private final Fork leftFork;
     private final Fork rightFork;
     private final int id;
@@ -46,6 +46,7 @@ public class Philosopher extends Thread{
                         } catch (InterruptedException e){
                             System.out.println(id + " couldn't pick up the right fork and put down the left fork");
                             leftFork.putDown();
+                            Thread.sleep(100); //Add a delay to avoid an infinite loop if a philosopher failing to take the right fork.
                             break;
                         }
                         break;
@@ -67,6 +68,10 @@ public class Philosopher extends Thread{
     //Add this getter to access the turns from main class
     public int  getTurns(){
         return turns;
+    }
+
+    public int getId(){
+        return this.id;
     }
 
 }
