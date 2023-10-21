@@ -12,6 +12,8 @@ public class Philosopher extends Thread{
 
     private Random random = new Random();
 
+    private int turns = 0;
+
     public Philosopher(Fork leftFork, Fork rightFork, int id){
         this.leftFork = leftFork;
         this.rightFork = rightFork;
@@ -40,6 +42,7 @@ public class Philosopher extends Thread{
                             System.out.println(id + " picked up the right fork.");
                             //If a philosopher takes the both forks, then change status into manger
                             state = State.MANGER;
+                            turns++;
                         } catch (InterruptedException e){
                             System.out.println(id + " couldn't pick up the right fork and put down the left fork");
                             leftFork.putDown();
@@ -59,6 +62,11 @@ public class Philosopher extends Thread{
         } catch (InterruptedException e){
             Thread.currentThread().interrupt();
         }
+    }
+
+    //Add this getter to access the turns from main class
+    public int  getTurns(){
+        return turns;
     }
 
 }

@@ -30,19 +30,19 @@ public class main {
                 executorService.execute(philosophers[i]);
             }
 
-            //Runu the simulation for 10 seconds
-            executorService.awaitTermination(10, TimeUnit.SECONDS);
+            int totalTurns = 0;
+            while(totalTurns < 500){
+                totalTurns = 0;
+                for(Philosopher philosopher : philosophers){
+                    totalTurns += philosopher.getTurns(); //assuming you have a getter for turns
+                }
+                Thread.sleep(100); //pause a bit before the next check
+            }
+
         } catch (InterruptedException e){
             System.out.println("There was an error in the ExecutorService.");
         } finally {
-            if(executorService != null){
-                executorService.shutdown();
-
-                //When the 60 seconds are over, stop all philosophers and finish the program.
-                for (Philosopher philosopher : philosophers){
-                    philosopher.interrupt();
-                }
-            }
+            executorService.shutdownNow(); //stop all philosophers
         }
     }
 }
