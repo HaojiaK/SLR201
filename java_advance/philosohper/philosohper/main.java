@@ -30,12 +30,12 @@ public class main {
 
             //keep looping until the total number of turns of all philosophers reaches 500
             int totalTurns = 0;
-            while(totalTurns < 100){
+            while(totalTurns < 1000){
+                Thread.sleep(10); //pause a bit before the next check
                 totalTurns = 0;
                 for(Philosopher philosopher : philosophers){
                     totalTurns += philosopher.getTurns(); 
                 }
-                Thread.sleep(100); //pause a bit before the next check
             }
 
             for(Philosopher philosopher : philosophers){
