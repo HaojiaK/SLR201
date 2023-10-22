@@ -3,15 +3,28 @@ import java.util.concurrent.*;
 import java.io.*;
 
 public class main {
+    public static void printOutput(String output, String[] args) throws FileNotFoundException{
+        if (args.length>0 && args[0].equals("file")){
+            PrintStream fileOut = new PrintStream((new FileOutputStream("out.txt", true)));
+            fileOut.println(output);
+        }else{
+            System.out.println(output);
+        }
+    }
     public static void main(String[] args) throws FileNotFoundException{
         final int NUMBER_OF_PHILOSOPHERS = 5;
         ExecutorService executorService = null;
         Philosopher[] philosophers = null;
         Fork[] forks = new Fork[NUMBER_OF_PHILOSOPHERS];
 
-        //Redirect the output stream to a file
-        PrintStream fileOut = new PrintStream("out.txt");
-        System.setOut(fileOut);
+        //Check if there is a command line argument
+        if (args.length >0){
+            //If the argument is "file", redirect output to a file
+            if (args[0].equals("file")){
+                PrintStream fileOut = new PrintStream("out.txt");
+                System.setOut(fileOut);
+            }
+        }
 
         try{
             philosophers = new Philosopher[NUMBER_OF_PHILOSOPHERS];
@@ -39,7 +52,7 @@ public class main {
             }
 
             for(Philosopher philosopher : philosophers){
-                System.out.println("Philosopher " + philosopher.getId() + " turns: " + philosopher.getTurns());// Print that for each philosopher, how many turns they eat.             
+                System.out.println("Philosopher " + philosopher.getId() + " has eaten " + philosopher.getTurns() + " times in total.");// Print that for each philosopher, how many turns they eat.             
             }
 
             //After the total number of turns reaches 200, shutdown the executor service
