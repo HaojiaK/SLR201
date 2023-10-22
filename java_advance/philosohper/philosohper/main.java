@@ -2,11 +2,12 @@ package philosohper;
 import java.util.concurrent.*;
 import java.io.*;
 
-public class main {
+public class Main {
     public static void printOutput(String output, String[] args) throws FileNotFoundException{
         if (args.length>0 && args[0].equals("file")){
             PrintStream fileOut = new PrintStream((new FileOutputStream("out.txt", true)));
             fileOut.println(output);
+            // if you want to save the output into the out.txt, run the program with an argument : bin carpediem$ java philosohper.Main file
         }else{
             System.out.println(output);
         }
@@ -43,7 +44,7 @@ public class main {
 
             //keep looping until the total number of turns of all philosophers reaches 500
             int totalTurns = 0;
-            while(totalTurns < 1000){
+            while(totalTurns < 100){
                 Thread.sleep(10); //pause a bit before the next check
                 totalTurns = 0;
                 for(Philosopher philosopher : philosophers){
