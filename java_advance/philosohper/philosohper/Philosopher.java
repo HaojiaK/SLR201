@@ -24,7 +24,7 @@ public class Philosopher implements Runnable{
 
     public void run(){
         try{
-            while(true){
+            while(!Thread.currentThread().isInterrupted()){
                 switch(state){
                     case REFLECHIR:
                         Thread.sleep(random.nextInt(256)); // 1 a 256 milliseconds

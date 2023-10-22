@@ -1,222 +1,18 @@
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-2 picked up the right fork.
-2 is eating.
 0 is reflecting.
 0 is hungry and tries to pick up the left fork.
 0 picked up the left fork and tries to pick up the right fork.
 0 picked up the right fork.
 0 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-2 puts down the left fork and right fork.
-3 picked up the left fork and tries to pick up the right fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-1 picked up the right fork.
-1 is eating.
-4 picked up the right fork.
-4 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-1 puts down the left fork and right fork.
-2 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
-0 picked up the right fork.
-3 picked up the right fork.
-0 is eating.
-3 is eating.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-1 picked up the right fork.
-1 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
 2 picked up the left fork and tries to pick up the right fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-3 picked up the right fork.
-3 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-2 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-4 picked up the left fork and tries to pick up the right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-2 puts down the left fork and right fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 picked up the right fork.
-1 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-1 puts down the left fork and right fork.
-2 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
-0 picked up the right fork.
-3 picked up the right fork.
-3 is eating.
-0 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-2 picked up the right fork.
-2 is eating.
-4 is eating.
-4 puts down the left fork and right fork.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-3 picked up the right fork.
-3 is eating.
-3 puts down the left fork and right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-1 puts down the left fork and right fork.
-2 picked up the left fork and tries to pick up the right fork.
-0 picked up the right fork.
-0 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
-2 picked up the right fork.
-2 is eating.
-4 picked up the right fork.
-4 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
 1 is reflecting.
 1 is hungry and tries to pick up the left fork.
 2 puts down the left fork and right fork.
@@ -227,151 +23,289 @@
 1 picked up the left fork and tries to pick up the right fork.
 1 picked up the right fork.
 1 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-1 puts down the left fork and right fork.
-2 picked up the left fork and tries to pick up the right fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
 4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
 3 picked up the right fork.
 3 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
 4 is reflecting.
 4 is hungry and tries to pick up the left fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
 3 puts down the left fork and right fork.
 4 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
+0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+4 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
+1 picked up the right fork.
+1 is eating.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+3 picked up the right fork.
+3 is eating.
+0 picked up the left fork and tries to pick up the right fork.
+4 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+3 puts down the left fork and right fork.
+2 picked up the right fork.
+2 is eating.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+4 picked up the right fork.
+4 is eating.
+1 picked up the left fork and tries to pick up the right fork.
+0 puts down the left fork and right fork.
 2 puts down the left fork and right fork.
 3 picked up the left fork and tries to pick up the right fork.
 1 picked up the right fork.
 1 is eating.
 1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
+3 is eating.
+3 puts down the left fork and right fork.
+1 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
 2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+0 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+2 puts down the left fork and right fork.
+3 is eating.
+3 puts down the left fork and right fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+4 is eating.
+4 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+3 puts down the left fork and right fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
+1 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+2 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+0 puts down the left fork and right fork.
+4 picked up the right fork.
+4 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+4 puts down the left fork and right fork.
+3 picked up the right fork.
+3 is eating.
+0 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+2 picked up the right fork.
+2 is eating.
+4 is eating.
+2 puts down the left fork and right fork.
+1 picked up the right fork.
+1 is eating.
+1 puts down the left fork and right fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+3 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+1 puts down the left fork and right fork.
+2 puts down the left fork and right fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
 0 puts down the left fork and right fork.
 4 picked up the right fork.
 4 is eating.
 1 is reflecting.
 1 is hungry and tries to pick up the left fork.
 1 picked up the left fork and tries to pick up the right fork.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
+1 picked up the right fork.
+1 is eating.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
 4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
 3 picked up the right fork.
 3 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+1 puts down the left fork and right fork.
+0 picked up the right fork.
+2 picked up the left fork and tries to pick up the right fork.
+0 is eating.
+3 puts down the left fork and right fork.
+2 picked up the right fork.
+2 is eating.
 4 is reflecting.
 4 is hungry and tries to pick up the left fork.
-3 puts down the left fork and right fork.
 4 picked up the left fork and tries to pick up the right fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+2 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
+0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+4 is eating.
+4 puts down the left fork and right fork.
 2 puts down the left fork and right fork.
 3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
 1 picked up the right fork.
 1 is eating.
+3 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
 1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
 0 picked up the right fork.
+2 is eating.
 0 is eating.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
 2 picked up the left fork and tries to pick up the right fork.
 0 puts down the left fork and right fork.
 4 picked up the right fork.
 4 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-4 puts down the left fork and right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-4 picked up the left fork and tries to pick up the right fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-2 picked up the left fork and tries to pick up the right fork.
-0 is eating.
-0 puts down the left fork and right fork.
-4 picked up the right fork.
-4 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-0 puts down the left fork and right fork.
-4 picked up the right fork.
-4 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
 1 picked up the left fork and tries to pick up the right fork.
 0 is reflecting.
 0 is hungry and tries to pick up the left fork.
-4 puts down the left fork and right fork.
 0 picked up the left fork and tries to pick up the right fork.
 3 picked up the right fork.
 3 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
+4 puts down the left fork and right fork.
 3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
 3 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
 1 puts down the left fork and right fork.
@@ -396,109 +330,19 @@
 4 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
 2 puts down the left fork and right fork.
-3 picked up the left fork and tries to pick up the right fork.
 1 picked up the right fork.
 1 is eating.
 1 puts down the left fork and right fork.
 0 picked up the right fork.
 0 is eating.
-0 puts down the left fork and right fork.
-4 picked up the right fork.
-4 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-3 picked up the right fork.
-3 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
 3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
+0 puts down the left fork and right fork.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
 2 picked up the left fork and tries to pick up the right fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-3 picked up the right fork.
-3 is eating.
-0 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-3 puts down the left fork and right fork.
-4 picked up the left fork and tries to pick up the right fork.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-0 puts down the left fork and right fork.
-4 picked up the right fork.
-4 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-3 picked up the right fork.
-3 is eating.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-2 picked up the left fork and tries to pick up the right fork.
-0 picked up the right fork.
-0 is eating.
-0 puts down the left fork and right fork.
 4 picked up the right fork.
 4 is eating.
 1 is reflecting.
@@ -507,106 +351,63 @@
 4 puts down the left fork and right fork.
 3 picked up the right fork.
 3 is eating.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
 4 is reflecting.
 4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-0 puts down the left fork and right fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-4 puts down the left fork and right fork.
-3 picked up the right fork.
-3 is eating.
-3 puts down the left fork and right fork.
-2 picked up the right fork.
-2 is eating.
-2 puts down the left fork and right fork.
-1 picked up the right fork.
-1 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
-0 puts down the left fork and right fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-3 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
-3 is eating.
-1 is reflecting.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-1 picked up the right fork.
-1 is eating.
-1 puts down the left fork and right fork.
-2 is reflecting.
-2 is hungry and tries to pick up the left fork.
-2 picked up the left fork and tries to pick up the right fork.
 3 puts down the left fork and right fork.
 4 picked up the left fork and tries to pick up the right fork.
 4 picked up the right fork.
 4 is eating.
 2 picked up the right fork.
 2 is eating.
-0 is reflecting.
-0 is hungry and tries to pick up the left fork.
-3 is reflecting.
-3 is hungry and tries to pick up the left fork.
-1 is reflecting.
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-0 picked up the left fork and tries to pick up the right fork.
-4 puts down the left fork and right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
 2 puts down the left fork and right fork.
-3 picked up the left fork and tries to pick up the right fork.
 1 picked up the right fork.
 1 is eating.
 1 puts down the left fork and right fork.
-0 picked up the right fork.
-0 is eating.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
 2 is reflecting.
 2 is hungry and tries to pick up the left fork.
 2 picked up the left fork and tries to pick up the right fork.
+4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+3 picked up the right fork.
+3 is eating.
 1 is reflecting.
 1 is hungry and tries to pick up the left fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
 0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+3 puts down the left fork and right fork.
+2 picked up the right fork.
+2 is eating.
+4 picked up the left fork and tries to pick up the right fork.
 4 picked up the right fork.
 4 is eating.
-1 picked up the left fork and tries to pick up the right fork.
+2 puts down the left fork and right fork.
+1 picked up the right fork.
+1 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
 0 is reflecting.
 0 is hungry and tries to pick up the left fork.
-0 picked up the left fork and tries to pick up the right fork.
-3 picked up the right fork.
 4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
 3 is eating.
 3 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
 2 picked up the right fork.
 2 is eating.
 4 is reflecting.
@@ -614,23 +415,207 @@
 4 picked up the left fork and tries to pick up the right fork.
 3 is reflecting.
 3 is hungry and tries to pick up the left fork.
+0 puts down the left fork and right fork.
+4 picked up the right fork.
+4 is eating.
+4 puts down the left fork and right fork.
+2 puts down the left fork and right fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+2 puts down the left fork and right fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+4 picked up the right fork.
+4 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+4 puts down the left fork and right fork.
+3 picked up the right fork.
+3 is eating.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+3 puts down the left fork and right fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+2 puts down the left fork and right fork.
+1 picked up the right fork.
+1 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+0 picked up the right fork.
+0 is eating.
+2 picked up the left fork and tries to pick up the right fork.
+0 puts down the left fork and right fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+4 is eating.
+2 picked up the right fork.
+2 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
+3 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+1 puts down the left fork and right fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+0 puts down the left fork and right fork.
+1 picked up the left fork and tries to pick up the right fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+2 puts down the left fork and right fork.
+3 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+0 puts down the left fork and right fork.
+4 picked up the right fork.
+4 is eating.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+4 puts down the left fork and right fork.
+0 picked up the left fork and tries to pick up the right fork.
+0 picked up the right fork.
+0 is eating.
+3 picked up the right fork.
+3 is eating.
+3 puts down the left fork and right fork.
+2 picked up the right fork.
+2 is eating.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+4 picked up the left fork and tries to pick up the right fork.
+4 picked up the right fork.
+4 is eating.
+1 picked up the left fork and tries to pick up the right fork.
+0 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+1 picked up the right fork.
+1 is eating.
+3 picked up the left fork and tries to pick up the right fork.
+2 puts down the left fork and right fork.
+4 puts down the left fork and right fork.
+3 picked up the right fork.
+3 is eating.
+3 puts down the left fork and right fork.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.
+3 picked up the right fork.
+3 is eating.
+2 is reflecting.
+2 is hungry and tries to pick up the left fork.
+0 is reflecting.
+0 is hungry and tries to pick up the left fork.
+0 picked up the left fork and tries to pick up the right fork.
+4 is reflecting.
+4 is hungry and tries to pick up the left fork.
+3 puts down the left fork and right fork.
+4 picked up the left fork and tries to pick up the right fork.
+1 puts down the left fork and right fork.
+2 picked up the left fork and tries to pick up the right fork.
+2 picked up the right fork.
+2 is eating.
+0 picked up the right fork.
+0 is eating.
+0 puts down the left fork and right fork.
+4 picked up the right fork.
+4 is eating.
+3 is reflecting.
+3 is hungry and tries to pick up the left fork.
+1 is reflecting.
+1 is hungry and tries to pick up the left fork.
+1 picked up the left fork and tries to pick up the right fork.
+2 puts down the left fork and right fork.
+3 picked up the left fork and tries to pick up the right fork.
+1 picked up the right fork.
+1 is eating.
 Philosopher 0 turns: 19
-Philosopher 1 turns: 21
+Philosopher 1 turns: 22
 Philosopher 2 turns: 21
 Philosopher 3 turns: 21
 Philosopher 4 turns: 19
-0 couldn't pick up the right fork and put down the left fork
-4 couldn't pick up the right fork and put down the left fork
-1 couldn't pick up the right fork and put down the left fork
-1 is hungry and tries to pick up the left fork.
-1 picked up the left fork and tries to pick up the right fork.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
-4 picked up the right fork.
-4 is eating.
-0 is hungry and tries to pick up the left fork.
-4 puts down the left fork and right fork.
-0 picked up the left fork and tries to pick up the right fork.
-4 is reflecting.
-4 is hungry and tries to pick up the left fork.
-4 picked up the left fork and tries to pick up the right fork.
+3 couldn't pick up the right fork and put down the left fork
+3 is hungry and tries to pick up the left fork.
+3 picked up the left fork and tries to pick up the right fork.

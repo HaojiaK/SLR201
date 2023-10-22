@@ -48,6 +48,8 @@ public class main {
             //Wait for all philosophers to finish their current turn before exiting the program
             executorService.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
 
+            System.out.println("End of the project");
+
         } catch (InterruptedException e){
             System.out.println("There was an error in the ExecutorService.");
         }
