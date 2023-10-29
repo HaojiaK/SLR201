@@ -1,4 +1,4 @@
-package philosohper;
+package philosopher;
 
 public class Fork{
     private boolean isTaken = false;

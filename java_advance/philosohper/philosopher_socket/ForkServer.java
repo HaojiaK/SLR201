@@ -1,4 +1,4 @@
-package philosopher_IO;
+package philosopher_socket;
 import java.io.*;
 import java.net.*;
 
