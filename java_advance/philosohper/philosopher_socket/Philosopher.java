@@ -1,4 +1,4 @@
-package philosopher_IO;
+package philosopher_socket;
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -29,10 +29,13 @@ public class Philosopher implements Runnable{
     }
 
     public void run(){
+        Socket socket = null;
+        PrintWriter out = null;
+        BufferedReader in = null;
         try{
-            Socket socket = new Socket(serverHost, serverPort);
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            socket = new Socket(serverHost, serverPort);
+            out = new PrintWriter(socket.getOutputStream(), true);
+            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             while(!Thread.currentThread().isInterrupted()){
                 switch(state){
@@ -85,7 +88,6 @@ public class Philosopher implements Runnable{
                         } catch (IOException e4){
                             e4.printStackTrace();
                         }  
-                                                
                         System.out.println(id + " puts down the left fork and right fork.");
                         state = State.REFLECHIR;
                         break;
@@ -93,10 +95,24 @@ public class Philosopher implements Runnable{
             }
         } catch (UnknownHostException e){
             Thread.currentThread().interrupt();
+        } catch (IOException e){
+            e.printStackTrace();
         } catch (InterruptedException e){
             Thread.currentThread().interrupt();
-        } catch (InterruptedException e){
-            Thread.currentThread().interrupt();
+        } finally {
+            try{
+                if(in != null){
+                    in.close();
+                }
+                if(out != null){
+                    out.close();
+                }
+                if(socket != null){
+                    socket.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
