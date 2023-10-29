@@ -1,4 +1,4 @@
-package philosohper;
+package philosopher;
 import java.util.concurrent.*;
 import java.io.*;
 
