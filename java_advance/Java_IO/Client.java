@@ -24,7 +24,7 @@ public class Client {
 
             //Close the socket
             socket.close();
-        }catch(IOException e){
+        } catch(IOException e){
             System.out.println("Error in clinet: " + e.getMessage());
         }
     }

@@ -1,4 +1,4 @@
-package SLR202_JAVA_ADVANCE.Java_Thread;
+package java_advance.Java_Thread;
 
 public class SleepMessages {
     public static void main(String args[])

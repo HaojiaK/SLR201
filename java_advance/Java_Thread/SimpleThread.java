@@ -1,4 +1,4 @@
-package SLR202_JAVA_ADVANCE.Java_Thread;
+package java_advance.Java_Thread;
 
 public class SimpleThread {
     //Display a message, preceded by the name of the current thread
