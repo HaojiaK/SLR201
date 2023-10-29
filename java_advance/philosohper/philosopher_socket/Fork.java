@@ -1,4 +1,4 @@
-package philosopher_IO;
+package philosopher_socket;
 
 public class Fork{
     private boolean isTaken = false;
