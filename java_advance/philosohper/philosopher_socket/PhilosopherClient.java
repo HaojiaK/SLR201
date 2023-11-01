@@ -2,8 +2,17 @@ package philosopher_socket;
 import java.io.*;
 
 public class PhilosopherClient {
+    /*
+     * This is a public static final field, which means it's a constant that can be accessed from anywhere in this application
+     */
+    public static final int NUMBER_OF_PHILOSOPHERS = 5;
     public static void main(String[] args) throws FileNotFoundException{
-        final int NUMBER_OF_PHILOSOPHERS = 5;
+        /*
+         * The client connects to the server by creating a new Philosopher object,
+         * passing the server host and port as arguments.
+         * The Philosopher class is responsible for managing the connection to the server.
+         */
+        
         final String SERVER_HORST = "localhost";
         final int SERVER_PORT = 5000; // The port number should match the one in the ForkServer
 
