@@ -8,8 +8,6 @@ public class PhilosopherClient {
         final String SERVER_HORST = "localhost";
         final int SERVER_PORT = 5000; // The port number should match the one in the ForkServer
 
-        Philosopher[] philosophers = null;
-
         //Check if there is a command line argument
         if(args.length>0 && args[0].equals("file")){
             PrintStream fileOut = new PrintStream("out.txt");
