@@ -8,6 +8,8 @@ public class ForkServer {
     private ServerSocket serverSocket;
 
     public ForkServer(int numForks, int port) throws IOException{
+        //Initialize and bind the serverSocket when ForkServer is created
+        this.serverSocket = new ServerSocket(port);
         forks = new Fork[numForks];
         for (int i=0; i<numForks; i++){
             forks[i] = new Fork();
