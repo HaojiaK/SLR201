@@ -6,7 +6,7 @@ public class Main {
     public static void printOutput(String output, String[] args) throws FileNotFoundException{
         if (args.length>0 && args[0].equals("file")){
             PrintStream fileOut = new PrintStream((new FileOutputStream("out.txt", true)));
-            fileOut.println(output);
+            System.setOut(fileOut);
             // if you want to save the output into the out.txt, run the program with an argument : bin carpediem$ java philosohper.Main file
         }else{
             System.out.println(output);
