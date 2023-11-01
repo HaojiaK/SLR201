@@ -16,7 +16,6 @@ public class ForkServer {
         }
 
         //Create a ServerSocket and bind it to the specified port
-        serverSocket = new ServerSocket();
     }
 
     public void start() throws IOException {
