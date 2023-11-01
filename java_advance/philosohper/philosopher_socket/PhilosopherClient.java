@@ -1,5 +1,4 @@
 package philosopher_socket;
-import java.util.concurrent.*;
 import java.io.*;
 
 public class PhilosopherClient {
