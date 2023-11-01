@@ -10,3 +10,4 @@
 The sequence should not be changed.
 
 
+Now I need to add function that the Server and Client could stop automatically

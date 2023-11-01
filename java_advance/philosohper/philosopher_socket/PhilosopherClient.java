@@ -19,8 +19,8 @@ public class PhilosopherClient {
         //Check if there is a command line argument
         if(args.length>0 && args[0].equals("file")){
             PrintStream fileOut = new PrintStream("out.txt");
-            fileOut.println(fileOut);
-            // if you want to save the output into the out.txt, run the program with an argument : bin carpediem$ java philosohper.Main file
+            System.setOut(fileOut);
+            // To save the output into the out.txt, run the program with an argument : bin carpediem$ java philosohper.Main file
         }
 
         Philosopher[] philosophers = new Philosopher[NUMBER_OF_PHILOSOPHERS];
