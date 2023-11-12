@@ -11,7 +11,7 @@ public class PhilosopherClient {
     public static void main(String[] args) throws RemoteException, InterruptedException{
         try{
             //Connect to the RMI server
-            String serverUrl = "rmi://localhost/ForkServer"; //Change to the actual RMI server URL
+            String serverUrl = "rmi://localhost/ForkServer"; //Change to the actual RMI server URL: rmi://192.168.1.100/ForkServer
             ForkServer server = (ForkServer) Naming.lookup(serverUrl);
 
             //Initialize the philosophers and threads
