@@ -5,14 +5,15 @@ public class Philosopher implements Runnable{
     private final Fork leftFork;
     private final Fork rightFork;
     private final int id;
+    private Random random = new Random();
+    private int turns = 0;
     //you could check about three status, leftFork, rightFork and id
     
     private enum State {AFFAME, MANGER, REFLECHIR};
     private State state;
 
-    private Random random = new Random();
-
-    private int turns = 0;
+    //Define the maximum number of attempts to pick up a fork
+    private static final int MAX_ATTEMPTS = 3;
 
     public Philosopher(Fork leftFork, Fork rightFork, int id){
         this.leftFork = leftFork;
@@ -35,21 +36,33 @@ public class Philosopher implements Runnable{
                     case AFFAME:
                     //The philosopher should take the forks
                         System.out.println(id + " is hungry and tries to pick up the left fork.");
-                        leftFork.pickUp();
-                        try{
-                            System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
-                            rightFork.pickUp();
-                            System.out.println(id + " picked up the right fork.");
-                            //If a philosopher takes the both forks, then change status into manger
-                            state = State.MANGER;
-                            turns++;
-                        } catch (InterruptedException e){
-                            System.out.println(id + " couldn't pick up the right fork and put down the left fork");
-                            leftFork.putDown();
-                            Thread.sleep(100); //Add a delay to avoid an infinite loop if a philosopher failing to take the right fork.
-                            break;
+                        
+                        //Initialize attempt counter
+                        int attempts = 0;
+
+                        //Keep trying until maximum attemps reached
+
+                        while (attempts < MAX_ATTEMPTS){
+                            try{
+                                leftFork.pickUp();
+                                System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
+                                rightFork.pickUp();
+                                System.out.println(id + " picked up the right fork.");
+                                
+                                //If a philosopher takes the both forks, then change status into manger
+                                state = State.MANGER;
+                                turns++;
+                                break; // Break from the loop if the philosopher was able to pick up both forks
+                            } catch (InterruptedException e){
+                                attempts++; // Increment attempts counter
+                                System.out.println(id + " couldn't pick up both forks. Attempt " + attempts);
+                                Thread.sleep(100); // Add a delay to avoid infinite loop if unable to pick up the right fork
+                            }
                         }
+                        // If the philosopher was unable to pick up both forks, transition back to thinking state
+                        if (state != State.MANGER) state = State.REFLECHIR; 
                         break;
+
                     case MANGER:
                         System.out.println(id + " is eating.");
                         Thread.sleep(random.nextInt(256));
