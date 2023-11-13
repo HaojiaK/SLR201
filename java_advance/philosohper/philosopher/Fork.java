@@ -9,7 +9,7 @@ public class Fork{
         isTaken = true;
         // If the fork has been picked up, then wait untill it is available, then pick it up and flag the fork as isTake
     }
-    synchronized void putDown() throws InterruptedException{
+    synchronized void putDown(){
         isTaken = false;
         notifyAll();
     }

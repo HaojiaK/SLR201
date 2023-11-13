@@ -44,10 +44,24 @@ public class Philosopher implements Runnable{
 
                         while (attempts < MAX_ATTEMPTS){
                             try{
-                                leftFork.pickUp();
-                                System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
-                                rightFork.pickUp();
-                                System.out.println(id + " picked up the right fork.");
+                                // enforce order of picking up forks
+                                /* 
+                                 * when the philosopher with the lowest ID (0) tries to pick up the forks, 
+                                 * they will pick up the left fork first and then the right fork. 
+                                 * But the philosopher with the highest ID (4) 
+                                 * will pick up the right fork first and then the left fork. 
+                                */
+                                if(id % 2 == 0){
+                                    leftFork.pickUp();
+                                    System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
+                                    rightFork.pickUp();
+                                } else {
+                                    rightFork.pickUp();
+                                    System.out.println(id + " picked up the right fork and tries to pick up the left fork.");
+                                    leftFork.pickUp();
+                                }
+
+                                System.out.println(id + " picked up both forks.");
                                 
                                 //If a philosopher takes the both forks, then change status into manger
                                 state = State.MANGER;
