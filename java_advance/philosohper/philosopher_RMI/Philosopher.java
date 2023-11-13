@@ -14,6 +14,9 @@ public class Philosopher implements Runnable {
     private enum State { REFLECHIR, AFFAME, MANGER }
     private State state;
 
+    // Define the maximum number of attempts to pick up a fork
+    private static final int MAX_ATTEMPTS = 3;
+
     public Philosopher(int id, int leftForkId, int rightForkId, ForkServer server) {
         this.id = id;
         this.leftForkId = leftForkId;
@@ -34,30 +37,32 @@ public class Philosopher implements Runnable {
 
                     case AFFAME:
                         System.out.println(id + " is hungry and tries to pick up the left fork.");
-                        
-                        // Request the left fork from the server using RMI call
-                        try {
-                            server.pickUpFork(leftForkId);
-                            System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
-                            
-                            // Request the right fork from the server using RMI call
-                            server.pickUpFork(rightForkId);
-                            System.out.println(id + " picked up the right fork.");
-                            
-                            state = State.MANGER; // Transition to eating state
-                            turns++;
-                        } catch (RemoteException | InterruptedException e) {
-                            System.out.println(id + " couldn't pick up both forks.");
+
+                        // Initialize attempt counter
+                        int attempts = 0; 
+
+                        // Keep trying until maximum attempts reached
+                        while (attempts < MAX_ATTEMPTS) {
                             try {
-                                // Release both forks if unable to pick up both
-                                server.putDownFork(leftForkId);
-                                server.putDownFork(rightForkId);
-                            } catch (RemoteException | InterruptedException e2) {
-                                e2.printStackTrace();
+                                // Request the left fork from the server using RMI call
+                                server.pickUpFork(leftForkId);
+                                System.out.println(id + " picked up the left fork and tries to pick up the right fork.");
+
+                                // Request the right fork from the server using RMI call
+                                server.pickUpFork(rightForkId);
+                                System.out.println(id + " picked up the right fork.");
+                                
+                                state = State.MANGER; // Transition to eating state
+                                turns++;
+                                break; // Break from the loop if the philosopher was able to pick up both forks
+                            } catch (RemoteException | InterruptedException e) {
+                                attempts++; // Increment attempts counter
+                                System.out.println(id + " couldn't pick up both forks. Attempt " + attempts);
+                                Thread.sleep(100); // Add a delay to avoid infinite loop if unable to pick up the right fork
                             }
-                            Thread.sleep(100); // Add a delay to avoid infinite loop if unable to pick up the right fork
-                            break;
                         }
+                        // If the philosopher was unable to pick up both forks, transition back to thinking state
+                        if (state != State.MANGER) state = State.REFLECHIR; 
                         break;
 
                     case MANGER:
@@ -89,4 +94,4 @@ public class Philosopher implements Runnable {
     public int getId() {
         return this.id;
     }
-}
+} 
